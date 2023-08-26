@@ -78,35 +78,24 @@ code {
   font-size: 2vmin;
 }
 
-.form-container {
-  padding: 3vmin;
-  background-color: var(--tan-1);
-  border: .1vmin solid var(--tan-3);
-  border-radius: 1vmin;
-}
-
 p.error-message {
   color: var(--orange);
   text-align: center;
 }
 
 form {
-  display: grid;
-  grid-template-columns: 1fr 3fr;
+  display: flex;
+  flex-direction: column;
   gap: 1.25vmin;
   color: var(--text-light);
 }
 
-label {
-  font-size: 2vmin;
-  display: flex;
-  align-items: center;
-}
-
 input {
+  display: flex;
+  flex-direction: column;
   padding: 1vmin;
   font-size: 2vmin;
-  border: .1vmin solid var(--tan-3);
+  border: .1vmin solid ;
   border-radius: .5vmin;
   color: var(--text-dark);
   background-image: none !important; /* prevent lastpass */
